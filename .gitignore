@@ -1,0 +1,21 @@
+# ===== 安全：.env 含 API Key，绝对不能提交 =====
+.env
+
+# 虚拟环境
+.venv/
+__pycache__/
+*.pyc
+
+# 大文件 / 缓存（不推 GitHub）
+models/
+chroma_db/
+*.db
+*.db-shm
+*.db-wal
+
+# 个人文件 / Word 临时锁文件
+学习小结/
+~$*
+
+# 临时文件
+*.tmp
